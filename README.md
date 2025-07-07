@@ -1,6 +1,6 @@
 # Industrial Remote Relay Iot Node
 
-![Project Image](https://drive.google.com/uc?export=view&id=1ktYvuxFSRtSpCyfecOWYl1VatnZNfzSd)
+![Project Image](https://drive.google.com/uc?export=view&id=1gMNMCP0JVgDr9rk988y_4HUUdz9aIBgh)
 
 ## Table of Contents
 
