@@ -1,3 +1,22 @@
+"""
+===============================================================================
+  File        : device_manager.py
+  Project     : Industrial Remote Relay IoT Node
+  Description : Manages the device
+
+  Author      : Hamas
+  Created on  : 2025-07-21
+  Version     : 1.0.0
+
+  Internal Modules:
+    - utils.logger
+    - services.device_manager
+
+  Notes:
+    - Device manager handles full application
+
+===============================================================================
+"""
 # main.py
 
 import  logging
