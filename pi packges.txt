@@ -1,0 +1,8 @@
+libcap-dev
+ffmpeg
+libcamera-apps
+python3-picamera2
+
+
+# venv
+python3 -m venv venv --system-site-packages

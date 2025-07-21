@@ -1,0 +1,12 @@
+av
+geopy
+numpy
+boto3
+aiortc
+pyserial
+rpi-lgpio
+picamera2
+opencv-python
+python-dotenv
+AWSIoTPythonSDK
+adafruit-circuitpython-ads1x15
