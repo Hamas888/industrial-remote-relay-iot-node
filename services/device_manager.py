@@ -1,7 +1,7 @@
 """
 ===============================================================================
   File        : device_manager.py
-  Project     : Remote Relay System (Raspberry Pi)
+  Project     : Industrial Remote Relay IoT Node
   Description : Manages the device
 
   Author      : Hamas
