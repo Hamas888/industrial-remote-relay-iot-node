@@ -150,44 +150,6 @@ class GSMManager:
         Sends an AT command to the modem and returns the response.
 
         """
-        for attempt in range(retries):
-            try:
-                if self._serial is None or not self._serial.is_open:
-                    self._startSerial()
-                    if self._serial is None or not self._serial.is_open:
-                        self.logger.error("Failed to open serial port")
-                        time.sleep(1)  
-                        continue
-
-                # Clear any pending data
-                self._serial.reset_input_buffer()
-                self._serial.reset_output_buffer()
-                
-                # Send command
-                self._serial.write(f"{command}\r\n".encode())
-                time.sleep(timeout)
-                
-                # Read response
-                response = self._serial.read_all().decode().strip()
-                
-                if response:
-                    return response
-                else:
-                    self.logger.warning(f"No response from modem (attempt {attempt + 1}/{retries})")
-                    
-            except serial.SerialException as e:
-                self.logger.error(f"Serial port error: {e}")
-                self._closeSerial()
-                self._serial = None
-                time.sleep(1)  # Wait before retry
-            except Exception as e:
-                self.logger.error(f"AT command failed: {e}")
-                self._closeSerial()
-                self._serial = None
-                time.sleep(1)  # Wait before retry
-                
-        self.logger.error(f"AT command '{command}' failed after {retries} attempts")
-        return None
     
     def sendSMS(self, message: str, frequent= False) -> bool:
         """
