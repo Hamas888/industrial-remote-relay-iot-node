@@ -1,7 +1,7 @@
 """
 ===============================================================================
   File        : logger.py
-  Project     : Remote Relay System (Raspberry Pi)
+  Project     : Industrial Remote Relay IoT Node
   Description : Manages device logging
 
   Author      : Hamas
