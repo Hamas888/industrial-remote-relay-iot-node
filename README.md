@@ -314,22 +314,22 @@ A comprehensive React-based web application provides complete system management 
    - System health and performance diagnostics
 
 ### Application Screenshots
-![Project Image](https://drive.google.com/uc?export=view&id=INSERT_DASHBOARD_SCREENSHOT_ID)
+![Project Image](https://drive.google.com/uc?export=view&id=1Ano4MlCh72UGv1afYY74P11FGHmkumcX)
 *Dashboard Overview*
 
-![Project Image](https://drive.google.com/uc?export=view&id=INSERT_DEVICE_DETAILS_SCREENSHOT_ID)
+![Project Image](https://drive.google.com/uc?export=view&id=1Ftie0b_tu4kMuBxDSXCG8Ulu98Y9dxzJ)
 *Device Details Page*
 
-![Project Image](https://drive.google.com/uc?export=view&id=INSERT_MAP_VIEW_SCREENSHOT_ID)
+![Project Image](https://drive.google.com/uc?export=view&id=1zxpSGMKoSZ27Yf4HlVaYtRagneGUDNHN)
 *Map View with Geofencing*
 
-![Project Image](https://drive.google.com/uc?export=view&id=INSERT_RECORDINGS_SCREENSHOT_ID)
+![Project Image](https://drive.google.com/uc?export=view&id=1cmAEQXNpvebSMBzr_W5SQEQ52YOHYbdR)
 *Recordings Library*
 
-![Project Image](https://drive.google.com/uc?export=view&id=INSERT_LIVE_STREAM_SCREENSHOT_ID)
-*Live Video Stream*
+![Project Image](https://drive.google.com/uc?export=view&id=1v3vMgr-7z9_FeSCBkGXEFej5wxBLPC28)
+*Device Groups*
 
-![Project Image](https://drive.google.com/uc?export=view&id=INSERT_SCHEDULING_SCREENSHOT_ID)
+![Project Image](https://drive.google.com/uc?export=view&id=1TWeGSFUpg3a3JOMEB4FgT8ENKUUdfqOC)
 *Event Scheduling Interface*
 
 ## Power Management
